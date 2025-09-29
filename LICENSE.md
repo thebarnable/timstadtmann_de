@@ -1,8 +1,8 @@
 The MIT License (MIT)
 
 Copyright (c) 2016-present George Cushen
-
-Copyright (c) 2018 - Present, Themefisher
+Copyright (c) 2018-present, Themefisher
+Copyright (c) 2025-present, Tim Stadtmann
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
