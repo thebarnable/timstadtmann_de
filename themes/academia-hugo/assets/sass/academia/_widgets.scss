@@ -197,11 +197,25 @@ a.hero-cta-alt:hover {
 
 .hero-media {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
   text-align: center;
-  flex-direction: row-reverse;
+}
+
+.hero-role {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
 }
 
 /*************************************************

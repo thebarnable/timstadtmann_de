@@ -5,10 +5,14 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Academia"
+# title = "Tim Stadtmann"
+name = "Tim Stadtmann"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "me3.jpg"
+
+# Role
+role = "Electrical Engineer"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -33,15 +37,14 @@ hero_media = "me3.jpg"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[btn]
-  url = "authors/admin/"
-  label = "Know more"
+# [btn]
+#   url = "authors/admin/"
+#   label = "Know more"
   
-[btn_alt]
-  url = "#contact"
-  label = "Contact me"
-
+# [btn_alt]
+#   url = "#contact"
+#   label = "Contact me"
 +++
-## **Tim Stadtmann**
+## **About Me**
 
 Electrical engineer uniting FPGA design and embedded systems experience with strong analytical skills, a team-player mindset and the drive to innovate
