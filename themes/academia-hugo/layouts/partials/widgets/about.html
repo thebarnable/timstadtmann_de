@@ -21,7 +21,7 @@
   <div class="col-lg-5">
     <div id="profile">
       {{ $avatar_image := .page.Params.avatar_image }}
-      <img class="img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar">
+      <img class="hero-img img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar">
     </div>
     <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
       {{ range $person.social }}
@@ -75,15 +75,15 @@
     <div class="row">
 
       {{ with $person.education }}
-      <div class="col-md-7">
+      <div class="col-md-6">
         <h3>{{ i18n "education" | markdownify }}</h3>
         <ul class="ul-edu fa-ul">
           {{ range .courses }}
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="institution">{{ .institution }}</p>
+              <p class="course">{{ .course }}</p>
+              <p class="institution">{{ with .year }}{{ . }}, {{ end }}{{ .institution }}</p>
             </div>
           </li>
           {{ end }}
@@ -92,7 +92,7 @@
       {{ end }}
 
       {{ with $person.interests }}
-      <div class="col-md-5">
+      <div class="col-md-6">
         <h3>{{ i18n "interests" | markdownify }}</h3>
         <ul class="ul-interests">
           {{ range . }}
