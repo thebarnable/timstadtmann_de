@@ -71,38 +71,46 @@
     {{ end }}
 
 
-    {{ if $person.display_education }}
     <div class="row">
-
-      {{ with $person.education }}
-      <div class="col-md-6">
-        <h3>{{ i18n "education" | markdownify }}</h3>
-        <ul class="ul-edu fa-ul">
-          {{ range .courses }}
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">{{ .course }}</p>
-              <p class="institution">{{ with .year }}{{ . }}, {{ end }}{{ .institution }}</p>
-            </div>
-          </li>
-          {{ end }}
-        </ul>
+      <div class="col">
+        <h2 class="mt-1 mb-1">{{ i18n "skills" | markdownify }}</h3>
       </div>
-      {{ end }}
-
-      {{ with $person.interests }}
-      <div class="col-md-6">
-        <h3>{{ i18n "interests" | markdownify }}</h3>
-        <ul class="ul-interests">
-          {{ range . }}
-          <li>{{ . | markdownify | emojify }}</li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-
     </div>
-    {{ end }}
+
+    <div class="row custom-gutter">
+
+      {{ with $person }}
+      <div class="col-md-4">
+        <h3 class="mt-1 mb-1">{{ i18n "programming" | markdownify }}</h3>
+        <ul>
+          {{ range .programming }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{ with $person }}
+      <div class="col-md-4">
+        <h3 class="mt-1 mb-1">{{ i18n "tools" | markdownify }}</h3>
+        <ul>
+          {{ range .tools }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{ with $person }}
+      <div class="col-md-4">
+        <h3 class="mt-1 mb-1">{{ i18n "languages" | markdownify }}</h3>
+        <ul>
+          {{ range .languages }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
   </div>
 </div>

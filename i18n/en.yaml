@@ -75,6 +75,18 @@
 - id: education
   translation: Education
 
+- id: languages
+  translation: Languages
+
+- id: skills
+  translation: Skills
+
+- id: programming
+  translation: Programming
+
+- id: tools
+  translation: Tools
+
 - id: user_profile_latest
   translation: Latest
 

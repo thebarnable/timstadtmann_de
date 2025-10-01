@@ -43,6 +43,11 @@ body {
   text-align: center;
 }
 
+.row.custom-gutter > [class*="col-"] {
+  padding-left: 15px;
+  padding-right: 0px;
+}
+
 /* Body text */
 p {
   margin-top: 0;

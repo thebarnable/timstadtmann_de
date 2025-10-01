@@ -34,9 +34,32 @@ interests:
 - Medical Technology
 - Aerospace Engineering
 
+programming:
+- C/C++
+- SystemVerilog
+- Python
+- MATLAB
+- shell/bash
+- VHDL
+- Tcl
+- Kotlin
+
+tools:
+- Xilinx Vivado, Vitis
+- ModelSim
+- ArduinoIDE
+- Linux
+- Git
+- Docker
+
+languages:
+- German (fluent)
+- English (fluent)
+- French (basic)
+
 education:
   courses:
-  - course: PhD in Neuromorphic Computing
+  - course: PhD in Electrical Engineering
     institution: RWTH Aachen University
     year: 2019-2025
   - course: MSc. in Computer Engineering
