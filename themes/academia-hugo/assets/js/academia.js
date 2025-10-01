@@ -325,6 +325,9 @@
    * --------------------------------------------------------------------------- */
 
   function toggleDarkMode(codeHlEnabled, codeHlLight, codeHlDark, diagramEnabled) {
+    const $icon = $('.js-dark-toggle i');
+    $icon.removeClass('fas fa-sun fa-moon fa-star fa-lightbulb fa-circle fa-circle-dot fa-solid fa-adjust');
+
     if ($('body').hasClass('dark')) {
       $('body').css({
         opacity: 0,
@@ -337,7 +340,7 @@
         codeHlLight.disabled = false;
         codeHlDark.disabled = true;
       }
-      $('.js-dark-toggle i').removeClass('fa-sun').addClass('fa-moon');
+      $icon.addClass('fas fa-circle')
       localStorage.setItem('dark_mode', '0');
       if (diagramEnabled) {
         // TODO: Investigate Mermaid.js approach to re-render diagrams with new theme without reloading.
@@ -355,7 +358,7 @@
         codeHlLight.disabled = true;
         codeHlDark.disabled = false;
       }
-      $('.js-dark-toggle i').removeClass('fa-moon').addClass('fa-sun');
+      $icon.addClass('fas fa-adjust');
       localStorage.setItem('dark_mode', '1');
       if (diagramEnabled) {
         // TODO: Investigate Mermaid.js approach to re-render diagrams with new theme without reloading.
@@ -407,6 +410,8 @@
     const codeHlDark = $('link[title=hl-dark]')[0];
     const diagramEnabled = $('script[title=mermaid]').length > 0;
 
+    const $icon = $('.js-dark-toggle i');
+    $icon.removeClass('fas fa-sun fa-moon fa-star fa-lightbulb fa-circle fa-circle-dot fa-solid fa-adjust');
     if (dark_mode) {
       $('body').addClass('dark');
       if (codeHlEnabled) {
@@ -418,7 +423,7 @@
           theme: 'dark'
         });
       }
-      $('.js-dark-toggle i').removeClass('fa-moon').addClass('fa-sun');
+      $icon.addClass('fas fa-circle');
     } else {
       $('body').removeClass('dark');
       if (codeHlEnabled) {
@@ -430,7 +435,7 @@
           theme: 'default'
         });
       }
-      $('.js-dark-toggle i').removeClass('fa-sun').addClass('fa-moon');
+      $icon.addClass('fas fa-adjust');
     }
 
     // Toggle day/night mode.
