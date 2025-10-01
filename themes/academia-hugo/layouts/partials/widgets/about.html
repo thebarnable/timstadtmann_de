@@ -73,7 +73,7 @@
 
     <div class="row">
       <div class="col">
-        <h2 class="mt-1 mb-1">{{ i18n "skills" | markdownify }}</h3>
+        <h3 class="mt-1 mb-1">{{ i18n "skills" | markdownify }}</h3>
       </div>
     </div>
 
@@ -81,8 +81,8 @@
 
       {{ with $person }}
       <div class="col-md-4">
-        <h3 class="mt-1 mb-1">{{ i18n "programming" | markdownify }}</h3>
-        <ul>
+        <h4 class="mt-1 mb-1">{{ i18n "programming" | markdownify }}</h3>
+        <ul class="ul-skills">
           {{ range .programming }}
             <li>{{ . }}</li>
           {{ end }}
@@ -92,8 +92,8 @@
 
       {{ with $person }}
       <div class="col-md-4">
-        <h3 class="mt-1 mb-1">{{ i18n "tools" | markdownify }}</h3>
-        <ul>
+        <h4 class="mt-1 mb-1">{{ i18n "tools" | markdownify }}</h3>
+        <ul class="ul-skills">
           {{ range .tools }}
             <li>{{ . }}</li>
           {{ end }}
@@ -103,8 +103,8 @@
 
       {{ with $person }}
       <div class="col-md-4">
-        <h3 class="mt-1 mb-1">{{ i18n "languages" | markdownify }}</h3>
-        <ul>
+        <h4 class="mt-1 mb-1">{{ i18n "languages" | markdownify }}</h3>
+        <ul class="ul-skills">
           {{ range .languages }}
             <li>{{ . }}</li>
           {{ end }}

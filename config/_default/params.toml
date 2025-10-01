@@ -55,7 +55,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "timstadtmann@gmail.com"
 phone = "+4916093374751"
-address = "Kruppstr. 16, 52072 Aachen, Germany"
+address = ""
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
