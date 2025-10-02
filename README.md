@@ -8,6 +8,11 @@ npm run project-setup # setup project
 npm run dev # start local dev server
 ```
 
+## Icon
+
+Website icon is FontAwesome's [microchip](https://fontawesome.com/icons/microchip?f=classic&s=solid).
+Converted to 32x32 via `rsvg-convert -w 32 -h 32 microchip-solid-full.svg -o icon32.png`, recolored via `convert icon32.png   -fill "#f08c3aff" -opaque black -background black -alpha remove icon32_c.png`
+
 ## License
 
 The website theme `Hugo Academia` was designed by [Themefisher](https://themefisher.com) & developed by [Gethugothemes](https://gethugothemes.com).
