@@ -79,7 +79,7 @@ social:
   link: 'mailto:timstadtmann@gmail.com'  # alt: #contact
 - icon: cv
   icon_pack: ai
-  link: /academia/site/files/cv.pdf  
+  link: /files/cv.pdf  
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/tim-stadtmann
