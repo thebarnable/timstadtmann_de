@@ -2,6 +2,17 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-12 text-center">
+        <div class="contact-inline mb-3">
+          <span>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:timstadtmann@gmail.com">timstadtmann@gmail.com</a>
+          </span>
+          <span class="separator"></span>
+          <span>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+4916093374751">+49 160 93374751</a>
+          </span>
+        </div>
         {{ with site.GetPage "privacy.md" }}
         <p class="powered-by">
           {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
