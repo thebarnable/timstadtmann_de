@@ -1,5 +1,5 @@
 ---
-title: "neuroAIx-Framework: design of future neuroscience simulation systems exhibiting execution of the cortical microcircuit model 20× faster than biological real-time"
+title: "neuroAIx-Framework: design of future neuroscience simulation systems"
 authors:
 - Kevin Kauth
 - admin

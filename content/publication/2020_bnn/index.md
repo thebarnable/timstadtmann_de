@@ -23,7 +23,7 @@ publication_short: In *ICMLA 2020*
 abstract: Binary Neural Networks (BNNs) offer an effective way to slash the cost of computation and memory accesses in inference. Recently, a plurality of ideas has been proposed, some of which are complementary while others are incompatible. This work presents a thorough review of state-of-the-art methods and an analysis of their computational cost based on the energy consumption of fixed-point, ternary and binary MAC vector operations. We derive an approach on how to systematically design a cost-efficient BNN. Our quantized LeNet and VGGNet architectures highlight the benefit of prudent capacity augmentation, with layer-wise ternarization providing best improvement of accuracy over μJ/classification in BNNs.
 
 # Summary. An optional shortened abstract.
-#summary: 
+summary: We derive an approach on how to systematically design cost-efficient BNNs, with novel methods like hybrid ternarization and a hardware-based cost estimation leading to BNNs more efficient that existing ones without compromising accuracy.
 
 tags:
 - ANN
