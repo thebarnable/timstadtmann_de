@@ -326,12 +326,32 @@ ul.network-icon {
   font-size: 2rem;
 }
 
+.h4-skills {
+  padding-left: 1em;
+
+  @media (max-width: 576px) { // mobile
+    padding-left: 0 !important;
+    text-align: center;
+  }
+}
+
 ul.ul-interests li {
   font-size: 0.9rem;
 }
 
+ul.ul-skills {
+  @media (max-width: 576px) {
+    padding-left: 0 !important;
+    text-align: center;
+  }
+}
+
 ul.ul-skills li {
   font-size: 0.85rem;
+  @media (max-width: 576px) {
+    text-align: center;
+    list-style: none;
+  }
 }
 
 ul.ul-edu {

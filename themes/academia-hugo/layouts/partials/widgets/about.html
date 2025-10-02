@@ -21,7 +21,7 @@
   <div class="col-lg-5">
     <div id="profile">
       {{ $avatar_image := .page.Params.avatar_image }}
-      <img class="hero-img img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar">
+      <img class="hero-img img-fluid d-block mx-auto" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar">
     </div>
     <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
       {{ range $person.social }}
@@ -77,11 +77,11 @@
       </div>
     </div>
 
-    <div class="row custom-gutter">
+    <div class="row">
 
       {{ with $person }}
       <div class="col-md-4">
-        <h4 class="mt-1 mb-1" style="padding-left: 1em">{{ i18n "programming" | markdownify }}</h3>
+        <h4 class="h4-skills mt-1 mb-1">{{ i18n "programming" | markdownify }}</h3>
         <ul class="ul-skills">
           {{ range .programming }}
             <li>{{ . }}</li>
@@ -92,7 +92,7 @@
 
       {{ with $person }}
       <div class="col-md-4">
-        <h4 class="mt-1 mb-1" style="padding-left: 1em">{{ i18n "tools" | markdownify }}</h3>
+        <h4 class="h4-skills mt-1 mb-1">{{ i18n "tools" | markdownify }}</h3>
         <ul class="ul-skills">
           {{ range .tools }}
             <li>{{ . }}</li>
@@ -103,7 +103,7 @@
 
       {{ with $person }}
       <div class="col-md-4">
-        <h4 class="mt-1 mb-1" style="padding-left: 1em">{{ i18n "languages" | markdownify }}</h3>
+        <h4 class="h4-skills mt-1 mb-1">{{ i18n "languages" | markdownify }}</h3>
         <ul class="ul-skills">
           {{ range .languages }}
             <li>{{ . }}</li>
