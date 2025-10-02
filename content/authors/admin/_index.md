@@ -100,6 +100,6 @@ email: ""
 # - Visitors
 ---
 
-Welcome to my landing page!
-I am Tim, electrical engineer with 7 years of experience in the design of digital hardware & RTL modules for Xilinx FPGAs, and embedded software development.
-In my previous role, I contributed to the specification, design, and implementation of a 35-FPGA cluster based on Xilinx devices for simulating neuroscientific experiments. As one of just two initial team members, I carried significant responsibility and later took on de-facto project leadership, coordinating several student assistants, PhD candidates, and a post-doc.
+Hi!
+I am Tim, electrical engineer specializing in digital hardware and embedded software development.
+For the past 6 years, I worked as a research assistant at the Chair of Integrated Digital Systems and Circuit, RWTH Aachen, where I am now finishing my PhD thesis on "Neuro-inspired Learning Mechanisms for Efficient and Robust Neural Networks".
