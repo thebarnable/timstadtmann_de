@@ -8,8 +8,10 @@
   border: 1px solid rgba(0,0,0,.09);
   border-radius: 3px;
   margin-top: 20px;
-  height: 750px;
-  overflow: hidden;
+  @media (min-width: 576px) {
+    height: 750px;
+    overflow: hidden;
+  }
 }
 
 .card-simple:first-of-type {
@@ -24,8 +26,10 @@
   background: rgb(40, 42, 54);
   box-shadow: 0 1px 4px rgba(0,0,0,.04);
   border: 1px solid rgb(68, 71, 90);
-  height: 750px;
-  overflow: hidden;
+  @media (min-width: 576px) {  
+    height: 750px;
+    overflow: hidden;
+  }
 }
 
 .card {
@@ -63,6 +67,10 @@
 
 .card .card-text {
   padding: 0.75rem 1rem 0.75rem;
+}
+
+.card .card-text ul {
+  padding-left: 1.3em;
 }
 
 .card .card-text p {

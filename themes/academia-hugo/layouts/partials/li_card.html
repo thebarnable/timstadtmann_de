@@ -36,9 +36,9 @@
     </a>
     {{end}}
 
-    <div class="card-body">
+  <div class="card-body">
     <h3 class="article-title mb-1 mt-0" itemprop="name">
-      <a href="{{ $item.RelPermalink }}" itemprop="url">{{ $item.Title }}</a>
+      {{ $item.Title }}
     </h3>
     {{ if eq $item.Type "talk" }}
     <div class="article-metadata">

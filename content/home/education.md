@@ -13,18 +13,18 @@ date_format = "Jan 2006"
 
 # Experiences
 [[experience]]
-  title = "Dr. Ing. (PhD in Electrical Engineering)"
+  title = "Dr. Ing. (PhD) in Electrical Engineering"
   company = "Chair of Integrated Digital Systems and Circuit Design, RWTH Aachen"
   company_url = ""
   location = "Aachen"
   date_start = "2019-10-01"
   date_end = ""
   description = """
-  PhD: Neuro-inspired Learning Mechanisms for Efficient and Robust Neural Networks
+  Topic: Neuro-inspired Learning Mechanisms for Efficient and Robust Neural Networks
   """
 
 [[experience]]
-  title = "Master of Science"
+  title = "MSc. Electrical Engineering, Information Technology and Computer Engineering"
   company = "RWTH Aachen"
   company_url = ""
   location = "Aachen"
@@ -37,7 +37,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Bachelor of Science"
+  title = "BSc. Electrical Engineering, Information Technology and Computer Engineering"
   company = "RWTH Aachen"
   company_url = ""
   location = "Aachen"

@@ -35,9 +35,8 @@
       {{ $target := "" }}
       {{ if not $scheme }}
       {{ $link = .link | relLangURL }}
-      {{ else if in (slice "http" "https") $scheme }}
-      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
       {{ end }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
       <li class="mx-3">
         <a itemprop="sameAs" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
           <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>

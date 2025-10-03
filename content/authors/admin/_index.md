@@ -101,5 +101,5 @@ email: ""
 ---
 
 Hi!
-I am Tim, electrical engineer specializing in digital hardware and embedded software development.
-For the past 6 years, I worked as a research assistant at the Chair of Integrated Digital Systems and Circuit, RWTH Aachen, where I am now finishing my PhD thesis on "Neuro-inspired Learning Mechanisms for Efficient and Robust Neural Networks".
+I am Tim, electrical engineer specializing in digital hardware design and embedded software development.
+For the past 6 years, I worked as a research assistant at the Chair of Integrated Digital Systems and Circuit Design, RWTH Aachen, where I am now finishing my PhD thesis on "Neuro-inspired Learning Mechanisms for Efficient and Robust Neural Networks".
