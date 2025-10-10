@@ -48,6 +48,7 @@ tools:
 - Xilinx Vivado, Vitis
 - ModelSim
 - ArduinoIDE
+- KiCad
 - Linux
 - Git
 - Docker

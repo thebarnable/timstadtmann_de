@@ -26,6 +26,7 @@ date_format = "Jan 2006"
   * Developed control scripts (TCL, Python, shell) and firmware (C++, Python), automating deployment, testing, and monitoring of the FPGA cluster (Linux, Git, CI)
   * Project lead for the cluster project: Coordination of research staff and students, organization of workflows, weekly meetings, and liaising with suppliers
   * Conducted research in the optimization of brain-inspired deep learning for efficient Edge AI and AI hardware acceleration
+  * Supervised design, schematic validation and test of PCBs for high-frequency inter-FPGA communication (PCIe, SATA) with KiCad
   """
 
 [[experience]]
